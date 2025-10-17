@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Examen unidad 2: formulario con localStorage y validaciones">
+    <title>Examen Unidad 2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="inicio" id="inicio">
+        <h1 >Formulario de registro</h1>
+    </header>
+    <nav class="lista">
+        <a href="#inicio">Inicio</a>
+        <a href="#fin">fin</a>
+    </nav>
+    <main>
+        <section class="formulario">
+            <h2 class="sudTitulo">formulario</h2>
+            <article>
+                <h3 class="sudTitulo">Informacion personal: </h3>
+                <form>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" class="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" class="correo" name="correo" placeholder="Escribe tu correo" required>
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad" class="edad" name="edad" min="1" max="100" placeholder="Escribe tu edad" required>
+                    <label for="pais">País</label>
+                    <input type="text" id="pais" class="pais" name="pais" placeholder="Escribe tu país" required>
+
+                    <button type="button" class="btnIngresar">Ingresar</button>
+                </form>
+            </article>
+        </section>
+        <p class="mensaje"></p>
+    </main>
+    <footer class="footer" id="fin">
+        <p>© 2025 Osvaldo Meza </p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
