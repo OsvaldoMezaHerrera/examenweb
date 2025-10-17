@@ -10,6 +10,7 @@
     justify-content: center;
     gap: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .sudTitulo{
     font-family: 'Arial Black', Gadget, sans-serif;
@@ -33,6 +34,7 @@
     margin: 0 auto;
     width: 1000px;
     border-radius: 10px;
+    background-color: beige;
 }
 .btnIngresar{
     background-color: #4CAF50;

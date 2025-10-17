@@ -11,10 +11,10 @@ if (mensajeGuardado) {
 }
 
 btnIngresar.addEventListener("click", () => {
-    const textoNombre = nombre.value.trim();
-    const textoCorreo = correo.value.trim();
-    const textoEdad = edad.value.trim();
-    const textoPais = pais.value.trim();
+    const textoNombre = nombre.value;
+    const textoCorreo = correo.value;
+    const textoEdad = edad.value;
+    const textoPais = pais.value;
 
     if (textoNombre === "" || textoCorreo === "" || textoEdad === "" || textoPais === "") {
         mensaje.textContent = "llene todos los campos.";
